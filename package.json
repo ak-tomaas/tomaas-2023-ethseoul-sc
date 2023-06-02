@@ -1,0 +1,29 @@
+{
+  "name": "tomaas-2023-ethseoul-sc",
+  "version": "0.1.0",
+  "description": "smart contracts for RWA NFTs and Staking Pool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ak-tomaas/tomaas-2023-ethseoul-sc.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ak-tomaas/tomaas-2023-ethseoul-sc/issues"
+  },
+  "homepage": "https://github.com/ak-tomaas/tomaas-2023-ethseoul-sc#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@openzeppelin/hardhat-upgrades": "^1.27.0",
+    "dotenv": "^16.1.3",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.14.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.9.0"
+  }
+}
